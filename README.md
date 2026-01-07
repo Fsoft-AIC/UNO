@@ -69,26 +69,12 @@ We use two datasets Action Genome and PVSG to train/evaluate our method.
 
 You can follow the scripts below to train UNO:
 
-in SGDET, SGCLS and PredCLS tasks.
-
-Notably, manually tuning LR drop may be needed to obtain the best performance.
+Notably, manually tuning LR may be needed to obtain the best performance.
 
 - For SGDET task
 
 ```
-bash scripts/train_ocdsg_sgdet.sh
-```
-
-- For SGCLS task
-
-```
-bash scripts/train_ocdsg_sgcls.sh
-```
-
-- For PredCLS task
-
-```
-bash scripts/train_ocdsg_predcls.sh
+bash scripts/train_sgdet.sh
 ```
 
 ### Evaluation
@@ -99,20 +85,10 @@ You can use the scripts below to evaluate the performance of OED.
 - For SGDET task
 
 ```
-bash scripts/eval_ocdsg_sgdet.sh
+bash scripts/eval_sgdet.sh
 ```
 
-- For SGCLS task
-
-```
-bash scripts/eval_ocdsg_sgcls.sh
-```
-
-- For PredCLS task
-
-```
-bash scripts/eval_ocdsg_predcls.sh
-```
+The code is still under development and will be updated more soon!
 
 ## Acknowledgement
 
